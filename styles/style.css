@@ -65,5 +65,111 @@ body {
   }
   
 
+  /* vision section style start */
+  .vision-section {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .vision-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .vision-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .card .icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    color: rgb(131, 123, 123);
+    margin-bottom: 20px;
+  }
+  .learn-more1 {
+    text-decoration: none;
+    color: #fff;
+    background: #ff00ff;
+    padding: 10px 20px;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+  }
+  .learn-more2 {
+    text-decoration: none;
+    color: #fff;
+    background: #ff0000;
+    padding: 10px 20px;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    
+  }
+   .learn-more3 {
+    text-decoration: none;
+    color: #ffffff;
+    background: #0000ff;
+    padding: 10px 20px;
+    border: 1px solid #00ff00;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    
+  }
+  
+  .card .learn-more1:hover {
+    background: #f54f03;
+  }
+  .card .learn-more2:hover {
+    background: #830bbb;
+  }
+  .card .learn-more3:hover {
+    background: #fc1010;
+  }
+  
+  /* Color Variations */
+  .card.blue {
+    background-color: #79b0eb;
+  }
+  
+  .card.green {
+    background-color: #66db81;
+  }
+  
+  .card.yellow {
+    background-color: #caa534;
+  }
+  
+
   
   
