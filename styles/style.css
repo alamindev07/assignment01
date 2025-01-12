@@ -1,0 +1,69 @@
+/* shared style */
+.btn-hover:hover{
+    background-color: #eb1b26;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    padding: 50px;
+    width: 1280px;
+    background-color: #f9f9f9;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+.bangladesh{
+    font-weight: 800;
+}
+
+.signin-button {
+    border: 2px solid lime; 
+    color: lime;
+    background-color: transparent;
+    padding: 8px 16px;
+    font-size: 16px; 
+    border-radius: 5px;
+  }
+  
+  .banner{
+    height: auto;
+    width: 1260px ;
+    margin-top: 10px;
+    padding: 15px;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #C6E4D6;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  .banner-title{
+    color:rgba(70, 69, 69, 0.5);
+    
+  }
+  .banner-description{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+  }
+  .banner-btn{
+        background-color: #0b664c;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        padding: 12px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      
+  }
+  .banner-img{
+    margin-right: 20px;
+  }
+  
+
+  
+  
