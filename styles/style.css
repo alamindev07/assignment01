@@ -355,7 +355,98 @@ body {
   }
   
   .news-content button:hover {
-    background-color: #084c38;
+    background-color: #a2f011;
+  }
+
+
+  /* Donate section start*/
+
+
+/* Donation section container */
+.donate-section {
+    margin-top: 30px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .donate-section h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .donate-section p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Donation options buttons */
+  .donation-options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .donation-btn {
+    background-color: #ffffff;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .donation-btn:hover {
+    border-color: #0b664c;
+    background-color: #007bff;
+  }
+  
+  .donation-btn.active {
+    background-color: #0cee7d;
+    border-color: #0b664c;
+  }
+  
+  /* Input for custom amount */
+  .donation-input {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .donation-input:focus {
+    border-color: #0b664c;
+  }
+  
+  /* Donate button */
+  .donate-btn {
+    background-color: #0b664c;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-btn:hover {
+    background-color: #f12b07;
   }
 
   
