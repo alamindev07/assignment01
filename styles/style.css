@@ -366,7 +366,7 @@ body {
 .donate-section {
     margin-top: 30px;
     background-color: #ffffff;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -448,6 +448,79 @@ body {
   .donate-btn:hover {
     background-color: #f12b07;
   }
+
+  /* Newsletter section style start*/
+
+/* Newsletter container */
+.newsletter-container {
+    text-align: center;
+    background-color: #b6e9d1;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  /* Title styling */
+  .newsletter-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  /* Paragraph styling */
+  .newsletter-container p {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin: 10px 0;
+  }
+  
+  /* Form styling */
+  .newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .newsletter-form input {
+    width: 70%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .newsletter-form input::placeholder {
+    color: #aaa;
+  }
+  
+  .newsletter-form button {
+    padding: 12px 20px;
+    border: none;
+    background-color: #0b664c;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .newsletter-form button:hover {
+    background-color: #e7a412;
+  }
+  
+  /* Note styling */
+  .note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+  }
+  
 
   
   
